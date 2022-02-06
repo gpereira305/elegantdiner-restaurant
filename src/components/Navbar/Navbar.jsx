@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import images from "../../constants/images";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineClose } from "react-icons/md";
 
