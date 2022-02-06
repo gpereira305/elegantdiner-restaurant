@@ -1,5 +1,6 @@
 import React from "react";
-import { images, data } from "../../constants";
+import { images } from "../../constants";
+import { data } from "../../constants/data";
 import "./SpecialMenu.css";
 import { SubHeading, MenuItem } from "../../components";
 

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { meal } from "../../constants";
+import { images } from "../../constants";
 import { BsFillPlayFill, BsPauseFill } from "react-icons/bs";
 import "./Intro.css";
 
@@ -20,7 +20,7 @@ const Intro = () => {
   return (
     <section className="app__video">
       <video
-        src={meal}
+        src={images.meal}
         type="video/mp4"
         loop
         muted

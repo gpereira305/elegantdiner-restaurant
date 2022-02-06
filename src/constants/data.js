@@ -1,4 +1,5 @@
-import images from "./images";
+/* eslint-disable import/no-anonymous-default-export */
+import { images } from "./index";
 
 const wines = [
   {
@@ -79,4 +80,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export const data = { wines, cocktails, awards };
