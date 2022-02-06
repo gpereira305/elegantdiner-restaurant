@@ -1,0 +1,38 @@
+.app__video {
+  height: 90vh;
+  position: relative;
+}
+
+.app__video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.app__video-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.app__video-overlay_circle {
+  padding: 26px;
+  border-radius: 50%;
+  border: 1px solid rgb(220 202 135 / 18%);
+  cursor: pointer;
+}
+
+.app__video-overlay_circle svg {
+  color: rgb(255 255 255 / 20%);
+  font-size: 1.5rem;
+}
+
+.app__video-overlay_circle:hover {
+  border: 1px solid var(--color-golden);
+  transition: 0.5s ease;
+}
+
+.app__video-overlay_circle:hover.app__video-overlay_circle svg {
+  color: var(--color-white);
+}
